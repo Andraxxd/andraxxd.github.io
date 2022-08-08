@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de reserva de el hotel Vacacional Dayman, ven a pasarla ien con nosotros">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap" rel="stylesheet">
+    <title>Hotel Vacacional Dayman - Inicio</title>
+</head>
+
+<body>
+    <nav id="navTitle">
+        <ul id="navli">
+            <li><img id="logo" src="imgs\vacacional_dayman.jpg" alt="Logo Vacacional Dayman"></li>
+            <li><a href="#Tarifas">Tarifas</a></li>
+            <li><a href="#Promos">Promos</a></li>
+            <li><a href="#Galeria">Galeria</a></li>
+            <li><a href="#Reservas">Reservas</a></li>
+        </ul>
+    </nav>
+
+    <figure id="figurebanner">
+        <img id="banner" src="imgs\banner.png" alt="">
+        <h1 id="bannerWelcomeH1">Bienvenido seas al Vacacional Dayman</h1>
+        <p id="bannerWelcomeP">Muchas garacias por considerarnos, espero que elijas pasar tus vacaciones con nosotros y
+            la pases muy bien</p>
+    </figure>
+
+    <section id="sectionTarifas">
+        <h1 id="Tarifas">
+            Tarifas
+        </h1>
+        <article>
+            <img src="imgs\doble.png" alt="Cómoda cama doble">
+            <h2>Habitacion estandard</h2>
+            <p>Doble</p>
+            <p>Alojamiento compartido</p>
+            <p>Interior</p>
+            <p>Pension completa</p>
+            <span>700$/noche</span>
+            <span id="ampliar">Ampliar</span>
+        </article>
+
+
+        <article>
+            <img src="imgs\simple.png" alt="Cómoda cama simple">
+            <h2>Habitacion estandard</h2>
+            <p>Simple</p>
+            <p>Alojamiento completo</p>
+            <p>Interior</p>
+            <p>Pension completa</p>
+            <span>600$/noche</span>
+            <span id="ampliar">Ampliar</span>
+        </article>
+
+        <article>
+            <img src="imgs\balcon.png" alt="Vista al balcon de la habitacion desde la calle">
+            <h2>Habitacion con balcon</h2>
+            <p>Doble</p>
+            <p>Alojamiento completo</p>
+            <p>Exterior</p>
+            <p>Pension completa</p>
+            <span>1500$/noche</span>
+            <span id="ampliar">Ampliar</span>
+        </article>
+
+        <article>
+            <img src="imgs\jacuzzi.png" alt="Vista al Jacuzzi y piscina">
+            <h2>Habitacion con jacuzzi</h2>
+            <p>Simple</p>
+            <p>Alojamiento compartido</p>
+            <p>Exterior</p>
+            <p>Pension completa</p>
+            <span>1100$/noche</span>
+            <span id="ampliar"> Ampliar</span>
+        </article>
+
+    </section>
+
+    <section id="sectionPromos">
+        <h1 id="Promos">Promos</h1>
+        <article>
+            <img src="imgs\fullrelax.png" alt="Desayuno buffet y piscina">
+            <h2>Promo de acceso completo</h2>
+            <p>Accesso libre a las instalaciones del hotel, </p>
+            <p> y a el desayuno y almuerzo buffet</p>
+            <span>Vigencia 02/20/2021 al 12/10/2022</span>
+            <span id="ampliar">Ampliar</span>
+        </article>
+        <article>
+            <img src="imgs\aguaclara.png" alt="Parque termal Aguaclara">
+            <h2>Promo del acuifero</h2>
+            <p>Accesso libre a las instalaciones del</p>
+            <p>parque y acuifero Aguaclara</p>
+            <span>Vigencia 12/20/2021 al 21/03/2023</span>
+            <span id="ampliar">Ampliar</span>
+        </article>
+    </section>
+
+    <h1 id="Galeria">Galeria</h1>
+    <section id="sectionGaleria">
+        <figure id="uno"><img id="uno1" src="imgs\uno.png" alt="Vista de las habitaciones desde el parrillero interno">
+        </figure>
+        <figure id="dos"><img id="dos2" src="imgs\dos.png"
+                alt="Vista del jardin desde dentro de una de las habitaciones superiores">
+        </figure>
+        <figure id="tres"><img id="tres3" src="imgs\tres.png" alt="Salon de fiestas del parque Aguaclara">
+        </figure>
+        <figure id="cuatro"><img id="cuatro4" src="imgs\cuatro.png" alt="Cartel de bienvenida del parque Aguaclara">
+        </figure>
+        <figure id="cinco"><img id="cinco5" src="imgs\cinco.png"
+                alt="Piscina y alrededores en la zona interior del Vacacional">
+        </figure>
+        <figure id="seis"><img id="seis6" src="imgs\seis.png" alt="Grupo de parrilleros exteriores del Vacacional">
+        </figure>
+    </section>
+
+    <section id="sectionReservas">
+        <h1 id="Reservas"> Reservas</h1>
+        <article>
+            <form action="procesa.php" method="get" autocomplete="on">
+                <Label for="nombreapellido">Nombre y apellido (*)</Label>
+                <label for="cantidadpersonas">Cantidad de personas(*)</label>
+                <p>Forma de pago</p>
+                <br>
+                <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Ingrese su nombre y apellido"
+                    required>
+                <input type="number" id="cantidadpersonas" name="cantidadpersonas" min="1" max="100" step="1" required>
+                <input type="radio" name="formapago" id="credito" checked>
+                <label id="credlabel" for="credito">Crédito</label>
+                <input type="radio" name="formapago" id="debito">
+                <label id="deblabel" for="debito">Débito</label>
+                <br>
+                <label id="alojamientolab" for="tipoalojamiento">Tipo de alojamiento</label>
+                <br>
+                <select name="tipoalojamiento" id="tipoalojamiento" required>
+                    <option value="">Seleccione un tipo de alojamiento</option>
+                    <option value="compartido">Alojamiento compartido</option>
+                    <option value="completo">Alojamiento completo</option>
+                </select>
+                <input type="checkbox" name="mascota" id="mascota">
+                <label for="mascota">Mascota</label>
+                <br>
+                <input id="reservar" type="submit" value="Reservar">
+            </form>
+        </article>
+
+        <article>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Temporada</th>
+                        <th>Precios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Enero/Febrero</td>
+                        <td>Alta</td>
+                        <td>X3</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo/Abril</td>
+                        <td>Media</td>
+                        <td>X2.2</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo a Octubre</td>
+                        <td>Baja</td>
+                        <td>X1</td>
+                    </tr>
+                    <tr>
+                        <td>Carnava/Turismo</td>
+                        <td>Alta</td>
+                        <td>X3</td>
+                    </tr>
+                    <tr>
+                        <td>Vacaciones de Julio</td>
+                        <td>Media</td>
+                        <td>X2.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+    </section>
+
+    <footer>Servicio Mutuo de la IMM <img src="imgs\SM.png" alt="Logo Servcio Mutuo IMM"> </footer>
+</body>
+
+</html>

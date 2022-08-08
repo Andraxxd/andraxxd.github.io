@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tiro Tamil', serif;
+    color: #47232c;
+}
+
+nav{
+    display: inline-block;
+}
+footer{
+    padding-top: 5px;
+    padding-left: 250px;
+    background-color: #31181eb6;
+    color: white;
+}
+
+th{
+    background-color: #46222b77;
+    padding: 5px;
+}
+tr{
+    background-color: #47232c67;
+    padding: 5px;
+}
+label{
+    padding: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+article {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 187, 0);
+}
+span{
+    font-weight: bold;
+}
+#ampliar{
+    font-weight: bold;
+    background-color: #4d2630b4;
+    color: #140a0c;
+    padding: 5px;
+}
+
+#navTitle {
+    width: 1440px;
+    padding: 5px;
+    margin: 2px auto;
+}
+
+#navTitle a {
+    border-left: 1px solid #47232c;
+    border-right: 1px solid #47232c;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #47232c27;
+
+}
+
+#logo {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#figurebanner {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #47232c27;
+}
+
+#banner {
+    width: 1440px;
+}
+
+#sectionTarifas {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#sectionTarifas article{
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sectionPromos {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #47232c27;
+}
+#sectionPromos article{
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sectionGaleria {
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 350px;
+    display: grid;
+}
+#Galeria{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+#uno, #uno1{
+    width: 200px;
+    height: 200px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+grid-column-start: 1;
+grid-column-end: 1;}
+
+#dos, #dos2{
+    width: 200px;
+    height: 200px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+grid-column-start: 2;
+grid-column-end: 2;}
+
+#tres, #tres3{
+    width: 400px;
+    height: 200px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 2;}
+
+#cuatro, #cuatro4{
+    width: 200px;
+    height: 400px;
+    grid-row-start: 2;
+    grid-row-end: 1;
+grid-column-start: 3;
+grid-column-end: 3;}
+
+#cinco, #cinco5{
+    width: 200px;
+    height: 200px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+grid-column-start: 4;
+grid-column-end: 4;}
+
+#seis, #seis6{
+    width: 200px;
+    height: 200px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+grid-column-start: 4;
+grid-column-end: 4;}
+
+#sectionTarifas img {
+    width: 100px;
+}
+#sectionPromos img {
+    width: 300px;
+}
+
+#sectionReservas {
+    width: 1600px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #47232c27;
+}
+#sectionReservas article{
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#bannerWelcomeH1 {
+    text-align: center;
+    margin-left: 0px;
+}
+#navli {  
+    padding-left: 100px;
+	list-style:none;
+}
+#navli li {
+	float:left;
+}
+
+footer img{
+    padding-left: 800px;
+    height: 30px;
+}
+
+#sectionReservas, #sectionReservas p{
+    display: inline-block;
+}
+
+#credlabel, #deblabel{
+    padding: 0px;
+}
+
+#credito, #cantidadpersonas, #mascota{
+    margin-left: 50px;
+}
+
+#tipoalojamiento, #nombreapellido{
+    margin-bottom: 20px;
+}
