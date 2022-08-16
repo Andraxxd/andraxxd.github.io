@@ -8,12 +8,6 @@
 nav{
     display: inline-block;
 }
-footer{
-    padding-top: 5px;
-    padding-left: 250px;
-    background-color: #31181eb6;
-    color: white;
-}
 
 th{
     background-color: #46222b77;
@@ -92,32 +86,32 @@ span{
     width: 1440px;
 }
 
-#sectionTarifas {
+#sectionDescripcion {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
-#sectionTarifas article{
+#sectionDescripcion article{
     padding-top: 15px;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#sectionPromos {
+#sectionAplicacion {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #47232c27;
 }
-#sectionPromos article{
+#sectionAplicacion article{
     padding-top: 15px;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#sectionGaleria {
+#sectionFirmas {
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(2, 200px);
     padding-top: 30px;
@@ -125,74 +119,26 @@ span{
     padding-left: 350px;
     display: grid;
 }
-#Galeria{
+#Firmas{
     padding-left: 0px;
     padding-top: 30px;
 }
 
-#uno, #uno1{
-    width: 200px;
-    height: 200px;
-    grid-row-start: 1;
-    grid-row-end: 1;
-grid-column-start: 1;
-grid-column-end: 1;}
-
-#dos, #dos2{
-    width: 200px;
-    height: 200px;
-    grid-row-start: 1;
-    grid-row-end: 1;
-grid-column-start: 2;
-grid-column-end: 2;}
-
-#tres, #tres3{
-    width: 400px;
-    height: 200px;
-    grid-row-start: 2;
-    grid-row-end: 2;
-grid-column-start: 1;
-grid-column-end: 2;}
-
-#cuatro, #cuatro4{
-    width: 200px;
-    height: 400px;
-    grid-row-start: 2;
-    grid-row-end: 1;
-grid-column-start: 3;
-grid-column-end: 3;}
-
-#cinco, #cinco5{
-    width: 200px;
-    height: 200px;
-    grid-row-start: 1;
-    grid-row-end: 1;
-grid-column-start: 4;
-grid-column-end: 4;}
-
-#seis, #seis6{
-    width: 200px;
-    height: 200px;
-    grid-row-start: 2;
-    grid-row-end: 2;
-grid-column-start: 4;
-grid-column-end: 4;}
-
-#sectionTarifas img {
+#sectionDescripcion img {
     width: 100px;
 }
-#sectionPromos img {
+#sectionAplicacion img {
     width: 300px;
 }
 
-#sectionReservas {
+#sectionContacto {
     width: 1600px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #47232c27;
 }
-#sectionReservas article{
+#sectionContacto article{
     padding-top: 15px;
     text-align: left;
     margin-left: 20px;
