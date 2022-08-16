@@ -44,12 +44,6 @@ a:hover {
 span{
     font-weight: bold;
 }
-#ampliar{
-    font-weight: bold;
-    background-color: #4d2630b4;
-    color: #140a0c;
-    padding: 5px;
-}
 
 #navTitle {
     width: 1440px;
@@ -152,25 +146,4 @@ span{
 }
 #navli li {
 	float:left;
-}
-
-footer img{
-    padding-left: 800px;
-    height: 30px;
-}
-
-#sectionReservas, #sectionReservas p{
-    display: inline-block;
-}
-
-#credlabel, #deblabel{
-    padding: 0px;
-}
-
-#credito, #cantidadpersonas, #mascota{
-    margin-left: 50px;
-}
-
-#tipoalojamiento, #nombreapellido{
-    margin-bottom: 20px;
 }
